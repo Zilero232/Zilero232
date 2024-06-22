@@ -59,31 +59,31 @@
   <div>
     <h4>Languages & Frameworks</h4>
     <div>
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="50" alt="javascript logo" /></code>
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="50" alt="html5 logo" /></code>
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="50" alt="css3 logo" /></code>
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="50" alt="typescript logo" /></code>
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" height="50" alt="sql logo" /></code>
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="50" alt="react logo" /></code>
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="50" alt="php logo" /></code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" /></code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" /></code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo" /></code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo" /></code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" height="40" alt="sql logo" /></code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo" /></code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo" /></code>
     </div>
   </div>
 
   <div>
     <h4>Tools</h4>
     <div>
-      <code><img src="https://skillicons.dev/icons?i=vite" height="50" alt="vite logo" /></code>
-      <code><img src="https://cdn.simpleicons.org/webpack/8DD6F9" height="50" alt="webpack logo" /></code>
-      <code> <img src="https://skillicons.dev/icons?i=wordpress" height="50" alt="wordpress logo" /></code>
+      <code><img src="https://skillicons.dev/icons?i=vite" height="40" alt="vite logo" /></code>
+      <code><img src="https://cdn.simpleicons.org/webpack/8DD6F9" height="40" alt="webpack logo" /></code>
+      <code> <img src="https://skillicons.dev/icons?i=wordpress" height="40" alt="wordpress logo" /></code>
     </div>
   </div>
   
   <div>
     <h4>Abilities</h4>
    <div> 
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="50" alt="gitlab logo" /></code>
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" height="50" alt="jira logo" /></code>
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="50" alt="slack logo" /></code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="40" alt="gitlab logo" /></code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" height="40" alt="jira logo" /></code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="40" alt="slack logo" /></code>
     </div>
   </div>
 </div>
