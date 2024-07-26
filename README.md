@@ -22,11 +22,11 @@
   </a>
 
   <a href="https://t.me/Zilero_Frilans" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="Telegram logo"  />
+    <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge&card_width=460" height="25" alt="Telegram logo"  />
   </a>
 
    <a href="https://career.habr.com/delalex" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Habr Career&logo=habr&label=&color=303b44&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="Habr Career"  />
+    <img src="https://img.shields.io/static/v1?message=Habr Career&logo=habr&label=&color=303b44&logoColor=white&labelColor=&style=for-the-badge&card_width=375" height="25" alt="Habr Career"  />
   </a>
 
   <a href="https://www.weblancer.net/users/nikapr321/" target="_blank">
