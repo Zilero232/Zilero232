@@ -41,11 +41,11 @@
   <!-- https://github.com/anuraghazra/github-readme-stats -->
 
   <a href="https://github.com/Zilero232/github-readme-stats">
-    <img alt="Zilero232's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=Zilero232&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1&card_width=460" height="230px" width="460px" />
+    <img alt="Zilero232's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=Zilero232&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1&card_width=460" style="width: 50%" />
   </a>
 
   <a href="https://github.com/Zilero232/github-readme-stats">
-  <img alt="Zilero232's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Zilero232&langs_count=8&layout=compact&card_width=375&hide_title=false&theme=dracula&hide_border=false&order=2" height="230px" width="375px" />
+  <img alt="Zilero232's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Zilero232&langs_count=8&layout=compact&card_width=375&hide_title=false&theme=dracula&hide_border=false&order=2" style="width: 48%" />
   </a>
 </div>
 
