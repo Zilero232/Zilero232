@@ -45,7 +45,7 @@
   </a>
 
   <a href="https://github.com/Zilero232/github-readme-stats">
-  <img alt="Zilero232's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Zilero232&langs_count=8&layout=compact&hide_title=false&card_width=320&theme=dracula&hide_border=false&order=2&card_width=375" height="230px"/>
+  <img alt="Zilero232's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Zilero232&langs_count=8&layout=compact&card_width=375&hide_title=false&theme=dracula&hide_border=false&order=2" height="230px"/>
   </a>
 </div>
 
