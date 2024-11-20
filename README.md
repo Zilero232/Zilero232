@@ -7,13 +7,14 @@
   <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=500&color=87BDF7&background=FFCEEA00&center=true&vCenter=true&random=false&width=435&height=20&lines=%F0%9F%94%A7+Frontend+dev%2C+skilled+in+WordPress.;%F0%9F%9B%A0%EF%B8%8F+Always+in+search+of+new+technologies.;%F0%9F%9A%80+I+turn+ideas+into+interactive+experiences." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?        font=Fira+Code&weight=500&size=16&duration=3000&pause=500&color=87BDF7&background=FFCEEA00&center=true&vCenter=true&random=false&width=435&height=20&lines=%F0%9F%94%A7+Frontend+dev%2C+skilled+in+WordPress.;%F0%9F%9B%A0%EF%B8%8F+Always+in+search+of+new+technologies.;%F0%9F%9A%80+I+turn+ideas+into+interactive+experiences." alt="Typing SVG" />
   </a>
 </p>
 
 ###
 
 <h3>🔗  Connect with me</h3>
+
 <div align="center">
   <!-- Shields badges - https://github.com/badges/shields -->
 
@@ -37,15 +38,16 @@
 ###
 
 <h3>📊 GitHub Profile Stats</h3>
+
 <div style="display: flex; grid-gap: 5px">
   <!-- https://github.com/anuraghazra/github-readme-stats -->
 
-  <a href="https://github.com/Zilero232/github-readme-stats">
-    <img alt="Zilero232's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=Zilero232&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1&card_width=460" style="width: 50%" />
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img alt="Zilero232's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Zilero232&show_icons=true&theme=dracula&locale=en&hide_border=false&order=1&card_width=460" style="width: 50%" />
   </a>
 
-  <a href="https://github.com/Zilero232/github-readme-stats">
-  <img alt="Zilero232's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Zilero232&langs_count=8&layout=compact&card_width=375&hide_title=false&theme=dracula&hide_border=false&order=2" style="width: 48%" />
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img alt="Zilero232's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zilero232&langs_count=8&layout=compact&card_width=375&hide_title=false&theme=dracula&hide_border=false&order=2" style="width: 48%" />
   </a>
 </div>
 
