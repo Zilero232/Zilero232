@@ -22,7 +22,7 @@
     <img src="https://img.shields.io/badge/e‑mail-D14836.svg?style=for-the-badge&logo=GMail&logoColor=white" height="25" alt="Email logo" />
   </a>
 
-  <a href="https://t.me/Zilero_Frilans" target="_blank">
+  <a href="https://t.me/zilero_drag" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="Telegram logo"  />
   </a>
 
