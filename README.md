@@ -1,19 +1,20 @@
 <h1 align="center" style='font-size: 16px'>
   Hey, I`m Artemev Alexandr!  
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28px" height="28px">
+  <img src="https://komarev.com/ghpvc/?username=Zilero232&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
 </h1>
 
 <p align="center">
   <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?        font=Fira+Code&weight=500&size=16&duration=3000&pause=500&color=87BDF7&background=FFCEEA00&center=true&vCenter=true&random=false&width=435&height=20&lines=%F0%9F%94%A7+Frontend+dev%2C+skilled+in+WordPress.;%F0%9F%9B%A0%EF%B8%8F+Always+in+search+of+new+technologies.;%F0%9F%9A%80+I+turn+ideas+into+interactive+experiences." alt="Typing SVG" />
+     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=500&color=87BDF7&background=FFCEEA00&center=true&vCenter=true&random=false&width=435&height=20&lines=🚀+Frontend+Developer+with+WordPress+expertise;⚡+Turning+complex+problems+into+elegant+solutions;🔍+Always+learning+and+exploring+new+technologies;💡+Creating+responsive+and+intuitive+interfaces" alt="Typing SVG" />
   </a>
 </p>
 
 ###
 
-<h3>🔗  Connect with me</h3>
+## 🔗  Connect with me
 
 <div align="center">
   <!-- Shields badges - https://github.com/badges/shields -->
@@ -37,23 +38,27 @@
 
 ###
 
-<h3>📊 GitHub Profile Stats</h3>
+## 📊 GitHub Profile Stats
 
 <div style="display: flex; grid-gap: 5px">
-  <!-- https://github.com/anuraghazra/github-readme-stats -->
-
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img alt="Zilero232's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Zilero232&show_icons=true&theme=dracula&locale=en&hide_border=false&order=1&card_width=460" style="width: 50%" />
+    <img alt="Zilero232's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Zilero232&theme=react&hide_border=false&include_all_commits=true&count_private=true&card_width=460" style="width: 50%" />
   </a>
 
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img alt="Zilero232's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zilero232&langs_count=8&layout=compact&card_width=375&hide_title=false&theme=dracula&hide_border=false&order=2" style="width: 48%" />
+    <img alt="Zilero232's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zilero232&theme=react&hide_border=false&include_all_commits=true&count_private=true&layout=compact&card_width=375" style="width: 48%" />
   </a>
+</div>
+
+## 📈 Contribution Activity
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zilero232&theme=react-dark" alt="Contribution Graph" />
 </div>
 
 ###
 
-<h3 align="left">🛠 Technologies:</h3>
+## 🛠 Technologies:
 
 <div>
   <!-- https://github.com/tandpfun/skill-icons and https://github.com/devicons/devicon -->
