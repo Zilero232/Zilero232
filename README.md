@@ -5,10 +5,8 @@
 </h1>
 
 <p align="center">
-  <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
-
   <a href="https://git.io/typing-svg">
-     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=500&color=87BDF7&background=FFCEEA00&center=true&vCenter=true&random=false&width=435&height=20&lines=🚀+Frontend+Developer+with+WordPress+expertise;⚡+Turning+complex+problems+into+elegant+solutions;🔍+Always+learning+and+exploring+new+technologies;💡+Creating+responsive+and+intuitive+interfaces" alt="Typing SVG" />
+     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&color=87BDF7&width=435&lines=%F0%9F%9A%80+Frontend+Developer+with+WordPress+expertise;%E2%9A%A1+Turning+complex+problems+into+elegant+solutions;%F0%9F%94%8D+Always+learning+and+exploring+new+technologies;%F0%9F%92%A1+Creating+responsive+and+intuitive+interfaces" alt="Typing SVG" />
   </a>
 </p>
 
@@ -28,16 +26,18 @@
   </a>
 
    <a href="https://career.habr.com/zilero" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Habr Career&logo=habr&label=&color=303b44&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="Habr Career"  />
+    <img src="https://career.habr.com/images/favicons/apple-touch-icon-120.png" height="25" alt="Habr Career"  />
   </a>
 
   <a href="https://www.weblancer.net/users/nikapr321/" target="_blank">
     <img src="https://img.shields.io/static/v1?label=&message=Weblancer&color=0088cc&logo=data:image/png;base64,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&style=for-the-badge" height="25" alt="Weblancer logo" />
   </a>
+</div>
 
-  <a href="https://leetcode.com/Zilero232/">
-    <img src="https://img.shields.io/badge/dynamic/json?color=yellow&label=LeetCode&query=totalSolved&url=https://leetcode-stats-api.herokuapp.com/Zilero232" height="25" alt="LeetCode Stats" />
-  </a>
+<div align="center" style="margin-top: 10px">
+   <a href="https://leetcode.com/Zilero232/">
+      <img src="https://img.shields.io/badge/dynamic/json?color=yellow&label=LeetCode&query=totalSolved&url=https://leetcode-stats-api.herokuapp.com/Zilero232" height="25" alt="LeetCode Stats" />
+   </a>
 </div>
 
 ###
