@@ -5,9 +5,9 @@
 </h1>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&color=87BDF7&width=435&lines=%F0%9F%9A%80+Frontend+Developer+with+WordPress+expertise;%E2%9A%A1+Turning+complex+problems+into+elegant+solutions;%F0%9F%94%8D+Always+learning+and+exploring+new+technologies;%F0%9F%92%A1+Creating+responsive+and+intuitive+interfaces" alt="Typing SVG" />
-  </a>
+  <!-- https://git.io/typing-svg -->
+
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&color=87BDF7&width=435&lines=%F0%9F%9A%80+Frontend+Developer+with+WordPress+expertise;%E2%9A%A1+Turning+complex+problems+into+elegant+solutions;%F0%9F%94%8D+Always+learning+and+exploring+new+technologies;%F0%9F%92%A1+Creating+responsive+and+intuitive+interfaces" alt="Typing SVG" />
 </p>
 
 ###
@@ -15,9 +15,9 @@
 ## 🔗  Connect with me
 
 <div align="center">
-  <!-- Shields badges - https://github.com/badges/shields -->
+  <!-- https://github.com/badges/shields -->
 
-  <a href="mailto:sasha.artemev.1002@gmail.com">
+  <a href="mailto:alexandr.artemev.me@gmail.com">
     <img src="https://img.shields.io/badge/e‑mail-D14836.svg?style=for-the-badge&logo=GMail&logoColor=white" height="25" alt="Email logo" />
   </a>
 
@@ -35,8 +35,10 @@
 </div>
 
 <div align="center" style="margin-top: 10px">
+    <!-- https://leetcode-stats.tashif.codes -->
+
    <a href="https://leetcode.com/Zilero232/">
-      <img src="https://img.shields.io/badge/dynamic/json?color=yellow&label=LeetCode&query=totalSolved&url=https://leetcode-stats-api.herokuapp.com/Zilero232" height="25" alt="LeetCode Stats" />
+      <img src="https://img.shields.io/badge/dynamic/json?color=yellow&label=LeetCode&query=totalSolved&url=https://leetcode-stats.tashif.codes/Zilero232" height="25" alt="LeetCode Stats" />
    </a>
 </div>
 
@@ -69,67 +71,41 @@
   <div>
     <h4>Languages & Frameworks</h4>
     <div>
-      <code>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" />
-      </code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" /></code>
       <img width="15" />
-      <code>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" />
-      </code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" /></code>
       <img width="15" />
-      <code>
-       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo" />
-      </code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo" /></code>
       <img width="15" />
-      <code>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo" />
-      </code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo" /></code>
       <img width="15" />
-      <code>
-       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" height="40" alt="sql logo" />
-      </code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" height="40" alt="sql logo" /></code>
       <img width="15" />
-      <code>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo" />
-      </code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo" /></code>
       <img width="15" />
-      <code>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo" />
-      </code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo" /></code>
     </div>
   </div>
 
   <div>
     <h4>Tools</h4>
     <div>
-      <code>
-        <img src="https://skillicons.dev/icons?i=vite" height="40" alt="vite logo" />
-      </code>
+      <code><img src="https://skillicons.dev/icons?i=vite" height="40" alt="vite logo" /></code>
       <img width="15" />
-      <code>
-        <img src="https://cdn.simpleicons.org/webpack/8DD6F9" height="40" alt="webpack logo" />
-      </code>
-        <img width="15" />
-      <code>
-        <img src="https://skillicons.dev/icons?i=wordpress" height="40" alt="wordpress logo" />
-      </code>
+      <code><img src="https://cdn.simpleicons.org/webpack/8DD6F9" height="40" alt="webpack logo" />
+      </code><img width="15" />
+      <code><img src="https://skillicons.dev/icons?i=wordpress" height="40" alt="wordpress logo" /></code>
     </div>
   </div>
   
   <div>
     <h4>Abilities</h4>
    <div> 
-      <code>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="40" alt="gitlab logo" />
-      </code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="40" alt="gitlab logo" /></code>
       <img width="15" />
-      <code>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" height="40" alt="jira logo" />
-      </code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" height="40" alt="jira logo" /></code>
       <img width="15" />
-      <code>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="40" alt="slack logo" />
-      </code>
+      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="40" alt="slack logo" /></code>
     </div>
   </div>
 </div>
