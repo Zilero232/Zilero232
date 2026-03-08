@@ -45,18 +45,17 @@
 ## 📊 GitHub Profile Stats
 
 <div style="display: flex; grid-gap: 5px">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img alt="Zilero232's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Zilero232&theme=react&hide_border=false&include_all_commits=true&count_private=true&card_width=460" style="width: 50%" />
-  </a>
+  <!-- https://github.com/stats-organization/github-readme-stats-action -->
 
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img alt="Zilero232's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zilero232&theme=react&hide_border=false&include_all_commits=true&count_private=true&layout=compact&card_width=375" style="width: 48%" />
-  </a>
+  <img alt="Zilero232's Github Stats" src="./profile/stats.svg" style="width: 50%" />
+  <img alt="Zilero232's Top Languages" src="./profile/top-langs.svg" style="width: 48%" />
 </div>
 
 ## 📈 Contribution Activity
 
 <div align="center">
+  <!-- https://github.com/anuraghazra/github-readme-stats -->
+
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zilero232&theme=react-dark" alt="Contribution Graph" />
 </div>
 
@@ -70,41 +69,67 @@
   <div>
     <h4>Languages & Frameworks</h4>
     <div>
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" /></code>
+      <code>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" />
+      </code>
       <img width="15" />
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" /></code>
+      <code>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" />
+      </code>
       <img width="15" />
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo" /></code>
+      <code>
+       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo" />
+      </code>
       <img width="15" />
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo" /></code>
+      <code>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo" />
+      </code>
       <img width="15" />
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" height="40" alt="sql logo" /></code>
+      <code>
+       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" height="40" alt="sql logo" />
+      </code>
       <img width="15" />
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo" /></code>
+      <code>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo" />
+      </code>
       <img width="15" />
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo" /></code>
+      <code>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo" />
+      </code>
     </div>
   </div>
 
   <div>
     <h4>Tools</h4>
     <div>
-      <code><img src="https://skillicons.dev/icons?i=vite" height="40" alt="vite logo" /></code>
+      <code>
+        <img src="https://skillicons.dev/icons?i=vite" height="40" alt="vite logo" />
+      </code>
       <img width="15" />
-      <code><img src="https://cdn.simpleicons.org/webpack/8DD6F9" height="40" alt="webpack logo" /></code>
-      <img width="15" />
-      <code> <img src="https://skillicons.dev/icons?i=wordpress" height="40" alt="wordpress logo" /></code>
+      <code>
+        <img src="https://cdn.simpleicons.org/webpack/8DD6F9" height="40" alt="webpack logo" />
+      </code>
+        <img width="15" />
+      <code>
+        <img src="https://skillicons.dev/icons?i=wordpress" height="40" alt="wordpress logo" />
+      </code>
     </div>
   </div>
   
   <div>
     <h4>Abilities</h4>
    <div> 
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="40" alt="gitlab logo" /></code>
+      <code>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="40" alt="gitlab logo" />
+      </code>
       <img width="15" />
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" height="40" alt="jira logo" /></code>
+      <code>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" height="40" alt="jira logo" />
+      </code>
       <img width="15" />
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="40" alt="slack logo" /></code>
+      <code>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="40" alt="slack logo" />
+      </code>
     </div>
   </div>
 </div>
