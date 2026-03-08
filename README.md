@@ -49,8 +49,8 @@
 <div style="display: flex; grid-gap: 5px">
   <!-- https://github.com/stats-organization/github-readme-stats-action -->
 
-  <img alt="Zilero232's Github Stats" src="./profile/stats.svg" style="width: 50%" />
-  <img alt="Zilero232's Top Languages" src="./profile/top-langs.svg" style="width: 48%" />
+  <img src="./profile/stats.svg" alt="Zilero232's Github Stats" style="width: 50%" />
+  <img src="./profile/top-langs.svg" alt="Zilero232's Top Languages" style="width: 48%" />
 </div>
 
 ## 📈 Contribution Activity
@@ -92,8 +92,7 @@
     <div>
       <code><img src="https://skillicons.dev/icons?i=vite" height="40" alt="vite logo" /></code>
       <img width="15" />
-      <code><img src="https://cdn.simpleicons.org/webpack/8DD6F9" height="40" alt="webpack logo" />
-      </code><img width="15" />
+      <code><img src="https://cdn.simpleicons.org/webpack/8DD6F9" height="40" alt="webpack logo" /></code><img width="15" />
       <code><img src="https://skillicons.dev/icons?i=wordpress" height="40" alt="wordpress logo" /></code>
     </div>
   </div>
