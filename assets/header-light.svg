@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="490" viewBox="0 0 920 490" role="img" aria-label="zilero@arch: OS Arch Linux x86_64, WM Hyprland, Role Full-stack TypeScript developer, Frontend React · Next.js · Vue, Backend NestJS · Bun · Prisma · PostgreSQL, Desktop Tauri + Rust, Mobile Expo · React Native, Games Godot 4, Theme Kanagawa, Langs TypeScript 69% · Python 15% · HTML 6% · SCSS 5%, Uptime 6 years on GitHub, Stars 69 across 12 public repos">
+  <style>
+    text { font-family: "JetBrains Mono", "Fira Code", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 14px; fill: #545464; white-space: pre; font-variant-ligatures: none; font-feature-settings: "liga" 0, "calt" 0; }
+    .muted { fill: #8A8980; }
+    .key { fill: #4D699B; font-weight: 700; }
+    .accent { fill: #CC6D00; font-weight: 700; }
+    .prompt { fill: #6F894E; font-weight: 700; }
+    .logo { fill: url(#logo); font-weight: 700; }
+    .reveal { opacity: 0; animation: reveal 0.45s ease-out forwards; }
+    .cursor { fill: #545464; animation: blink 1.1s steps(1) infinite; }
+    @keyframes reveal { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .reveal { animation: none; opacity: 1; } .cursor { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4D699B" />
+      <stop offset="1" stop-color="#624C83" />
+    </linearGradient>
+    <clipPath id="window"><rect width="920" height="490" rx="12" /></clipPath>
+  </defs>
+
+  <g clip-path="url(#window)">
+    <rect width="920" height="490" fill="#F2ECBC" />
+    <rect width="920" height="36" fill="#E7DBA0" />
+    <line x1="0" y1="36" x2="920" y2="36" stroke="#D5CEA3" />
+    <circle cx="22" cy="18" r="6" fill="#C84053" />
+    <circle cx="42" cy="18" r="6" fill="#CC6D00" />
+    <circle cx="62" cy="18" r="6" fill="#6F894E" />
+    <text x="460" y="23" text-anchor="middle" class="muted">zilero@arch: ~</text>
+  </g>
+  <rect x="0.5" y="0.5" width="919" height="489" rx="12" fill="none" stroke="#D5CEA3" />
+
+  <text x="32" y="68"><tspan class="prompt">❯</tspan> fastfetch</text>
+
+  <text class="logo reveal" xml:space="preserve">
+    <tspan x="32" y="100">                  -`</tspan>
+    <tspan x="32" y="118">                 .o+`</tspan>
+    <tspan x="32" y="136">                `ooo/</tspan>
+    <tspan x="32" y="154">               `+oooo:</tspan>
+    <tspan x="32" y="172">              `+oooooo:</tspan>
+    <tspan x="32" y="190">              -+oooooo+:</tspan>
+    <tspan x="32" y="208">            `/:-:++oooo+:</tspan>
+    <tspan x="32" y="226">           `/++++/+++++++:</tspan>
+    <tspan x="32" y="244">          `/++++++++++++++:</tspan>
+    <tspan x="32" y="262">         `/+++ooooooooooooo/`</tspan>
+    <tspan x="32" y="280">        ./ooosssso++osssssso+`</tspan>
+    <tspan x="32" y="298">       .oossssso-````/ossssss+`</tspan>
+    <tspan x="32" y="316">      -osssssso.      :ssssssso.</tspan>
+    <tspan x="32" y="334">     :osssssss/        osssso+++.</tspan>
+    <tspan x="32" y="352">    /ossssssss/        +ssssooo/-</tspan>
+    <tspan x="32" y="370">  `/ossssso+/:-        -:/+osssso+-</tspan>
+    <tspan x="32" y="388"> `+sso+:-`                 `.-/+oso:</tspan>
+    <tspan x="32" y="406">`++:.                           `-/+/</tspan>
+    <tspan x="32" y="424">.`                                 `/</tspan>
+  </text>
+
+  <text x="380" y="100" class="reveal"><tspan class="accent">zilero</tspan>@<tspan class="accent">arch</tspan></text>
+  <line x1="380" y1="108" x2="472.4" y2="108" stroke="#8A8980" class="reveal" />
+  <text y="136" class="reveal" style="animation-delay: 0.06s"><tspan x="380" class="key">OS</tspan><tspan x="472">Arch Linux x86_64</tspan></text>
+  <text y="154" class="reveal" style="animation-delay: 0.12s"><tspan x="380" class="key">WM</tspan><tspan x="472">Hyprland</tspan></text>
+  <text y="172" class="reveal" style="animation-delay: 0.18s"><tspan x="380" class="key">Role</tspan><tspan x="472">Full-stack TypeScript developer</tspan></text>
+  <text y="190" class="reveal" style="animation-delay: 0.24s"><tspan x="380" class="key">Frontend</tspan><tspan x="472">React · Next.js · Vue</tspan></text>
+  <text y="208" class="reveal" style="animation-delay: 0.3s"><tspan x="380" class="key">Backend</tspan><tspan x="472">NestJS · Bun · Prisma · PostgreSQL</tspan></text>
+  <text y="226" class="reveal" style="animation-delay: 0.36s"><tspan x="380" class="key">Desktop</tspan><tspan x="472">Tauri + Rust</tspan></text>
+  <text y="244" class="reveal" style="animation-delay: 0.42s"><tspan x="380" class="key">Mobile</tspan><tspan x="472">Expo · React Native</tspan></text>
+  <text y="262" class="reveal" style="animation-delay: 0.48s"><tspan x="380" class="key">Games</tspan><tspan x="472">Godot 4</tspan></text>
+  <text y="280" class="reveal" style="animation-delay: 0.54s"><tspan x="380" class="key">Theme</tspan><tspan x="472">Kanagawa</tspan></text>
+  <text y="298" class="reveal" style="animation-delay: 0.6s"><tspan x="380" class="key">Langs</tspan><tspan x="472">TypeScript 69% · Python 15% · HTML 6% · SCSS 5%</tspan></text>
+  <text y="316" class="reveal" style="animation-delay: 0.66s"><tspan x="380" class="key">Uptime</tspan><tspan x="472">6 years on GitHub</tspan></text>
+  <text y="334" class="reveal" style="animation-delay: 0.72s"><tspan x="380" class="key">Stars</tspan><tspan x="472">69 across 12 public repos</tspan></text>
+
+  <g class="reveal" style="animation-delay: 0.78s">
+    <rect x="380" y="358" width="26" height="14" rx="3" fill="#C84053" />
+    <rect x="410" y="358" width="26" height="14" rx="3" fill="#CC6D00" />
+    <rect x="440" y="358" width="26" height="14" rx="3" fill="#77713F" />
+    <rect x="470" y="358" width="26" height="14" rx="3" fill="#6F894E" />
+    <rect x="500" y="358" width="26" height="14" rx="3" fill="#597B75" />
+    <rect x="530" y="358" width="26" height="14" rx="3" fill="#4D699B" />
+    <rect x="560" y="358" width="26" height="14" rx="3" fill="#624C83" />
+    <rect x="590" y="358" width="26" height="14" rx="3" fill="#B35B79" />
+  </g>
+
+  <text x="32" y="464"><tspan class="prompt">❯</tspan></text>
+  <rect x="50" y="452" width="9" height="16" class="cursor" />
+</svg>

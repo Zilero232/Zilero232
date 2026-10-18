@@ -1,0 +1,19 @@
+{
+  "name": "zilero232-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "mkdir -p data && gh api graphql -F login=Zilero232 -F query=@github.graphql > data/github.json",
+    "build": "bun generate.ts",
+    "check": "tsc"
+  },
+  "dependencies": {
+    "nunjucks": "^3.2.4"
+  },
+  "devDependencies": {
+    "@octokit/graphql-schema": "^15.26.1",
+    "@types/bun": "^1.4.3",
+    "@types/nunjucks": "^3.2.6",
+    "typescript": "^7.0.2"
+  }
+}

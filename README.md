@@ -1,108 +1,90 @@
-<h1 align="center" style='font-size: 16px'>
-   Hey, I`m Artemev Alexandr!
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28px" height="28px">
-  <img src="https://komarev.com/ghpvc/?username=Zilero232&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-</h1>
+<!-- Generated from profile.yml and templates/ by generate.ts. Do not edit by hand. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
+  <img src="./assets/header-dark.svg" width="100%" alt="fastfetch on zilero@arch: OS Arch Linux x86_64, WM Hyprland, Role Full-stack TypeScript developer, Frontend React · Next.js · Vue, Backend NestJS · Bun · Prisma · PostgreSQL, Desktop Tauri + Rust, Mobile Expo · React Native, Games Godot 4, Theme Kanagawa" />
+</picture>
 
-<p align="center">
-  <!-- https://git.io/typing-svg -->
+<p align="center"><samp>
+  <a href="https://t.me/zilero_drag">telegram</a> ·
+  <a href="mailto:alexandr.artemev.me@gmail.com">email</a> ·
+  <a href="https://career.habr.com/zilero">habr career</a> ·
+  <a href="https://leetcode.com/Zilero232/">leetcode</a> ·
+  <a href="https://www.weblancer.net/users/nikapr321/">weblancer</a>
+</samp></p>
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&color=87BDF7&width=435&lines=%F0%9F%9A%80+Frontend+Developer+with+WordPress+expertise;%E2%9A%A1+Turning+complex+problems+into+elegant+solutions;%F0%9F%94%8D+Always+learning+and+exploring+new+technologies;%F0%9F%92%A1+Creating+responsive+and+intuitive+interfaces" alt="Typing SVG" />
-</p>
+### Alexandr Artemev
 
-###
+Full-stack developer, mostly TypeScript. These days that means Next.js, NestJS on Bun, PostgreSQL, Tauri for desktop and Expo for phones. I started with WordPress and PHP. On the side: Godot, and an Arch config I keep rebuilding.
 
-## 🔗  Connect with me
+### Projects
 
-<div align="center">
-  <!-- https://github.com/badges/shields -->
+<table>
+  <tr>
+    <td valign="top" width="50%">
 
-  <a href="mailto:alexandr.artemev.me@gmail.com">
-    <img src="https://img.shields.io/badge/e‑mail-D14836.svg?style=for-the-badge&logo=GMail&logoColor=white" height="25" alt="Email logo" />
-  </a>
+**Products**
 
-  <a href="https://t.me/zilero_drag" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="Telegram logo"  />
-  </a>
+- **[GnomeVPN](https://github.com/Zilero232/GnomeVPN)**<br /><sub>VPN on Hysteria2 for web, desktop and Android</sub>
+- **[Chatovo](https://github.com/Zilero232/Chatovo)**<br /><sub>Desktop voice and video rooms on Tauri + LiveKit</sub>
+- **[DurakMaster](https://github.com/Zilero232/DurakMaster)**<br /><sub>Online Durak for Android, iOS and web from one Expo codebase</sub>
 
-   <a href="https://career.habr.com/zilero" target="_blank">
-    <img src="https://career.habr.com/images/favicons/apple-touch-icon-120.png" height="25" alt="Habr Career"  />
-  </a>
+</td>
+    <td valign="top" width="50%">
 
-  <a href="https://www.weblancer.net/users/nikapr321/" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=&message=Weblancer&color=0088cc&logo=data:image/png;base64,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&style=for-the-badge" height="25" alt="Weblancer logo" />
-  </a>
-</div>
+**Tooling**
 
-<div align="center" style="margin-top: 10px">
-    <!-- https://leetcode-stats.tashif.codes -->
+- **[commit-jazzer](https://github.com/Zilero232/commit-jazzer)**<br /><sub>Interactive CLI for structured commit messages</sub>
+- **[gulp-plugins-hub](https://github.com/Zilero232/gulp-plugins-hub)**<br /><sub>Monorepo of Gulp plugins</sub>
+- **[dev-config-hub](https://github.com/Zilero232/dev-config-hub)**<br /><sub>Shared ESLint and Prettier configs</sub>
+- **[pure-flow-ai](https://github.com/Zilero232/pure-flow-ai)**<br /><sub>Text moderation and sentiment analysis</sub>
 
-   <a href="https://leetcode.com/Zilero232/">
-      <img src="https://img.shields.io/badge/dynamic/json?color=yellow&label=LeetCode&query=totalSolved&url=https://leetcode-stats.tashif.codes/Zilero232" height="25" alt="LeetCode Stats" />
-   </a>
-</div>
+</td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
 
-###
+**Linux**
 
-## 📊 GitHub Profile Stats
+- **[arch-install-kit](https://github.com/Zilero232/arch-install-kit)** ★ 55<br /><sub>Arch + Hyprland in one command, Kanagawa dotfiles</sub>
 
-<div align="center">
-  <!-- Generated by the GitHub workflow in .github/workflows/grs.yml -->
-  <img src="./profile/stats.svg" alt="GitHub statistics card" height="165" /><img src="./profile/top-langs.svg" alt="Top languages card" height="165" />
-</div>
+</td>
+    <td valign="top" width="50%">
 
-## 📈 Contribution Activity
+**WordPress**
 
-<div align="center">
-  <!-- https://github.com/anuraghazra/github-readme-stats -->
+- **[wp-swift-pwa](https://github.com/Zilero232/wp-swift-pwa)**<br /><sub>Turns a WordPress site into an installable PWA</sub>
+- **[wp-storybook-gutenberg](https://github.com/Zilero232/wp-storybook-gutenberg)**<br /><sub>Storybook for Gutenberg blocks</sub>
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zilero232&theme=react-dark" alt="Contribution Graph" />
-</div>
+</td>
+  </tr>
+</table>
 
-###
+### Now
 
-## 🛠 Technologies:
+<table>
+  <tr>
+    <td><samp>building</samp></td>
+    <td>GnomeVPN and Chatovo</td>
+  </tr>
+  <tr>
+    <td><samp>learning</samp></td>
+    <td>Rust for the Tauri side, Godot 4</td>
+  </tr>
+  <tr>
+    <td><samp>running</samp></td>
+    <td>Arch Linux, Hyprland, Kanagawa</td>
+  </tr>
+</table>
 
-<div>
-  <!-- https://github.com/tandpfun/skill-icons and https://github.com/devicons/devicon -->
+### GitHub
 
-  <div>
-    <h4>Languages & Frameworks</h4>
-    <div>
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" /></code>
-      <img width="15" />
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" /></code>
-      <img width="15" />
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo" /></code>
-      <img width="15" />
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo" /></code>
-      <img width="15" />
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" height="40" alt="sql logo" /></code>
-      <img width="15" />
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo" /></code>
-      <img width="15" />
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo" /></code>
-    </div>
-  </div>
+<samp>Since 2020 · 12 public repos · ★ 69 · 157 pull requests · 945 contributions in the last year</samp>
 
-  <div>
-    <h4>Tools</h4>
-    <div>
-      <code><img src="https://skillicons.dev/icons?i=vite" height="40" alt="vite logo" /></code>
-      <img width="15" />
-      <code><img src="https://cdn.simpleicons.org/webpack/8DD6F9" height="40" alt="webpack logo" /></code><img width="15" />
-      <code><img src="https://skillicons.dev/icons?i=wordpress" height="40" alt="wordpress logo" /></code>
-    </div>
-  </div>
-  
-  <div>
-    <h4>Abilities</h4>
-   <div> 
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="40" alt="gitlab logo" /></code>
-      <img width="15" />
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" height="40" alt="jira logo" /></code>
-      <img width="15" />
-      <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="40" alt="slack logo" /></code>
-    </div>
-  </div>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/snake-light.svg" />
+  <img src="./assets/snake-dark.svg" width="100%" alt="Snake eating my contribution graph" />
+</picture>
+
+<p align="center"><sub>Generated from <a href="./profile.yml">profile.yml</a> by a GitHub Action, refreshed daily.</sub></p>
