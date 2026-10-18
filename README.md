@@ -79,7 +79,7 @@ Full-stack developer, mostly TypeScript. These days that means Next.js, NestJS o
 
 ### GitHub
 
-<samp>Since 2020 · 12 public repos · ★ 69 · 157 pull requests · 945 contributions in the last year</samp>
+<samp>Since 2020 · 12 public repos · ★ 69 · 157 pull requests · 941 contributions in the last year</samp>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg" />
