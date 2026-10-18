@@ -1,0 +1,51 @@
+query ProfileData($login: String!) {
+  user(login: $login) {
+    login
+    createdAt
+    repositories(ownerAffiliations: OWNER, privacy: PUBLIC, isFork: false, first: 100) {
+      totalCount
+      nodes {
+        name
+        stargazerCount
+        languages(first: 10, orderBy: { field: SIZE, direction: DESC }) {
+          edges {
+            size
+            node {
+              name
+            }
+          }
+        }
+      }
+    }
+    recent: repositories(
+      ownerAffiliations: OWNER
+      privacy: PUBLIC
+      isFork: false
+      first: 10
+      orderBy: { field: PUSHED_AT, direction: DESC }
+    ) {
+      nodes {
+        name
+        defaultBranchRef {
+          target {
+            __typename
+            ... on Commit {
+              history(first: 15) {
+                nodes {
+                  abbreviatedOid
+                  messageHeadline
+                  committedDate
+                  author {
+                    user {
+                      login
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

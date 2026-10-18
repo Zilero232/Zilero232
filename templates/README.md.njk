@@ -15,15 +15,14 @@
 
 {{ intro }}
 
-### Now
-
-<table>
-{% for item in now %}
-  <tr>
-    <td><samp>{{ item.label }}</samp></td>
-    <td>{{ item.text }}</td>
-  </tr>
+<p align="center">
+{% for card in (["activity", "stack"] if github else ["stack"]) %}
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/{{ card }}-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/{{ card }}-light.svg" />
+    <img src="./assets/{{ card }}-dark.svg" width="49%" alt="{{ "Recent commits" if card == "activity" else "Tech stack" }}" />
+  </picture>
 {% endfor %}
-</table>
+</p>
 
 <p align="center"><sub>Generated from <a href="./profile.yml">profile.yml</a> by a GitHub Action, refreshed daily.</sub></p>

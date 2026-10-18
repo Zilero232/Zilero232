@@ -1,0 +1,19 @@
+{#- `git log` across public repos: hash, repo and age, then the commit subject -#}
+{% import "_window.njk" as ui %}
+{% set p = palette %}
+{% set types = { feat: p.swatches[3], fix: p.swatches[0], docs: p.swatches[5], test: p.swatches[2], refactor: p.swatches[6], perf: p.swatches[1] } %}
+{% set desc %}{{ github.commits | length }} recent commits. {% for c in github.commits %}{{ c.repo }}, {{ c.age }}: {{ c.type }}{{ c.rest }}{{ ". " if not loop.last }}{% endfor %}{% endset %}
+{% call ui.window("activity", p, fonts, pane.width, pane.height, "~/code", desc) %}
+  {{ ui.prompt(24, 68, "git log --all --author=" + username) }}
+
+  {% for c in github.commits %}
+  {% set y = 104 + loop.index0 * 2 * pane.line %}
+  <g class="reveal" style="animation-delay: {{ (loop.index * 0.08) | round(2) }}s" data-testid="commit">
+    <text x="24" y="{{ y }}"><tspan fill="{{ p.swatches[2] }}" data-testid="hash">{{ c.hash }}</tspan> <tspan class="key" data-testid="repo">{{ c.repo }}</tspan></text>
+    <text x="{{ pane.width - 24 }}" y="{{ y }}" text-anchor="end" class="muted" data-testid="age">{{ c.age }}</text>
+    <text x="40" y="{{ y + pane.line }}" data-testid="subject">{% if c.type %}<tspan fill="{{ types[c.type] or p.muted }}" class="bold" data-testid="type">{{ c.type }}</tspan>{% endif %}{{ c.rest }}</text>
+  </g>
+  {% endfor %}
+
+  {{ ui.idle(24, pane.height - 22) }}
+{% endcall %}

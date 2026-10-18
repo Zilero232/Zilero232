@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="202" viewBox="0 0 920 202" xml:space="preserve" role="img" aria-labelledby="header-title header-desc">
+  <title id="header-title">octo@arch: ~</title>
+  <desc id="header-desc">OS: Arch Linux. Shell: fish. Langs: TypeScript 60% · Shell 30% · CSS 10%. Uptime: on GitHub since 2020. Stars: 15 across 3 public repos</desc>
+  <style>
+    text { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 14px; fill: #545464; white-space: pre; font-variant-ligatures: none; font-feature-settings: "liga" 0, "calt" 0; }
+    .muted { fill: #727169; }
+    .key { fill: #7E9CD8; font-weight: 700; }
+    .accent { fill: #FFA066; font-weight: 700; }
+    .prompt { fill: #98BB6C; font-weight: 700; }
+    .bold { font-weight: 700; }
+    .logo { fill: url(#header-logo); font-weight: 700; }
+    .reveal { opacity: 0; animation: reveal 0.45s ease-out forwards; }
+    .cursor { fill: #545464; animation: blink 1.1s steps(1) infinite; }
+    @keyframes reveal { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .reveal { animation: none; opacity: 1; } .cursor { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="header-logo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7E9CD8" />
+      <stop offset="1" stop-color="#957FB8" />
+    </linearGradient>
+    <clipPath id="header-window"><rect width="920" height="202" rx="12" /></clipPath>
+  </defs>
+
+  <g clip-path="url(#header-window)">
+    <rect width="920" height="202" fill="#F2ECBC" />
+    <rect width="920" height="36" fill="#16161D" />
+    <line x1="0" y1="36" x2="920" y2="36" stroke="#2A2A37" />
+    <circle cx="22" cy="18" r="6" fill="#E46876" />
+    <circle cx="42" cy="18" r="6" fill="#FFA066" />
+    <circle cx="62" cy="18" r="6" fill="#98BB6C" />
+    <text x="460" y="23" text-anchor="middle" class="muted" data-testid="title">octo@arch: ~</text>
+  </g>
+  <rect x="0.5" y="0.5" width="919" height="201" rx="12" fill="none" stroke="#2A2A37" />
+
+  <text x="32" y="68" data-testid="prompt"><tspan class="prompt">❯</tspan> fastfetch</text>
+
+
+  <text class="logo reveal">
+    <tspan x="32" y="100" data-testid="logo-line">  /&#92;</tspan>
+    <tspan x="32" y="118" data-testid="logo-line"> /  &#92;</tspan>
+    <tspan x="32" y="136" data-testid="logo-line">/____&#92;</tspan>
+  </text>
+
+  <text x="380" y="100" class="reveal" data-testid="host"><tspan class="accent">octo</tspan>@<tspan class="accent">arch</tspan></text>
+  <line x1="380" y1="108" x2="455.6" y2="108" stroke="#727169" class="reveal" />
+  <text y="136" class="reveal" style="animation-delay: 0.06s" data-testid="row"><tspan x="380" class="key" data-testid="key">OS</tspan><tspan x="472" data-testid="value">Arch Linux</tspan></text>
+  <text y="154" class="reveal" style="animation-delay: 0.12s" data-testid="row"><tspan x="380" class="key" data-testid="key">Shell</tspan><tspan x="472" data-testid="value">fish</tspan></text>
+  <text y="172" class="reveal" style="animation-delay: 0.18s" data-testid="row"><tspan x="380" class="key" data-testid="key">Langs</tspan><tspan x="472" data-testid="value">TypeScript 60% · Shell 30% · CSS 10%</tspan></text>
+  <text y="190" class="reveal" style="animation-delay: 0.24s" data-testid="row"><tspan x="380" class="key" data-testid="key">Uptime</tspan><tspan x="472" data-testid="value">on GitHub since 2020</tspan></text>
+  <text y="208" class="reveal" style="animation-delay: 0.3s" data-testid="row"><tspan x="380" class="key" data-testid="key">Stars</tspan><tspan x="472" data-testid="value">15 across 3 public repos</tspan></text>
+
+  <g class="reveal" style="animation-delay: 0.36s">
+    <rect x="380" y="232" width="26" height="14" rx="3" fill="#E46876" data-testid="swatch" />
+    <rect x="410" y="232" width="26" height="14" rx="3" fill="#FFA066" data-testid="swatch" />
+    <rect x="440" y="232" width="26" height="14" rx="3" fill="#E6C384" data-testid="swatch" />
+    <rect x="470" y="232" width="26" height="14" rx="3" fill="#98BB6C" data-testid="swatch" />
+    <rect x="500" y="232" width="26" height="14" rx="3" fill="#7AA89F" data-testid="swatch" />
+    <rect x="530" y="232" width="26" height="14" rx="3" fill="#7E9CD8" data-testid="swatch" />
+    <rect x="560" y="232" width="26" height="14" rx="3" fill="#957FB8" data-testid="swatch" />
+    <rect x="590" y="232" width="26" height="14" rx="3" fill="#D27E99" data-testid="swatch" />
+  </g>
+
+  <text x="32" y="176"><tspan class="prompt">❯</tspan></text>
+<rect x="50" y="164" width="9" height="16" class="cursor" />
+
+
+</svg>

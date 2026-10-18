@@ -1,0 +1,10 @@
+# The toolchain for this repo: `mise install` in the repo root.
+# CI installs it from here too (jdx/mise-action in .github/workflows).
+
+min_version = "2026.9.0"
+
+[tools]
+# Runs the scripts. Keep in step with the other repos.
+bun = "1.3.14"
+# Vitest runs on Node, not on Bun.
+node = "22"

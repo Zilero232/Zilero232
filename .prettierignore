@@ -1,0 +1,6 @@
+README.md
+assets/
+data/
+coverage/
+bun.lock
+src/github/generated/

@@ -5,31 +5,29 @@ username: Zilero232
 name: Alexandr Artemev
 
 links:
-  - { label: telegram, url: "https://t.me/zilero_drag" }
-  - { label: email, url: "mailto:alexandr.artemev.me@gmail.com" }
-  - { label: habr career, url: "https://career.habr.com/zilero" }
-  - { label: leetcode, url: "https://leetcode.com/Zilero232/" }
-  - { label: weblancer, url: "https://www.weblancer.net/users/nikapr321/" }
+  - { label: telegram, url: 'https://t.me/zilero_drag' }
+  - { label: email, url: 'mailto:alexandr.artemev.me@gmail.com' }
+  - { label: habr career, url: 'https://career.habr.com/zilero' }
+  - { label: leetcode, url: 'https://leetcode.com/Zilero232/' }
+  - { label: weblancer, url: 'https://www.weblancer.net/users/nikapr321/' }
 
 intro: >-
   Full-stack developer, mostly TypeScript. These days that means Next.js, NestJS on Bun, PostgreSQL,
   Tauri for desktop and Expo for phones. I started with WordPress and PHP. On the side: Godot,
   and an Arch config I keep rebuilding.
 
-# fastfetch-style card at the top. Langs, Uptime and Stars rows are added from GitHub data.
+# fastfetch card at the top. Langs, Uptime and Stars rows are added from GitHub data.
 header:
   user: zilero
   host: arch
   rows:
     - [OS, Arch Linux x86_64]
     - [WM, Hyprland]
-    - [Role, Full-stack TypeScript developer]
-    - [Frontend, React · Next.js · Vue]
-    - [Backend, NestJS · Bun · Prisma · PostgreSQL]
-    - [Desktop, Tauri + Rust]
-    - [Mobile, Expo · React Native]
-    - [Games, Godot 4]
+    - [Shell, fish]
+    - [Terminal, Alacritty]
+    - [Editor, VS Code]
     - [Theme, Kanagawa]
+    - [Role, Full-stack TypeScript developer]
   logo:
     - '                  -`'
     - '                 .o+`'
@@ -49,34 +47,40 @@ header:
     - '  `/ossssso+/:-        -:/+osssso+-'
     - ' `+sso+:-`                 `.-/+oso:'
     - '`++:.                           `-/+/'
-    - '.`                                 `/'
+    - .`                                 `/
 
-now:
-  - { label: building, text: "GnomeVPN and Chatovo" }
-  - { label: learning, text: "Rust for the Tauri side, Godot 4" }
-  - { label: running, text: "Arch Linux, Hyprland, Kanagawa" }
+# `tree ~/stack` card: area → tools
+stack:
+  web: [React, Next.js, Vue]
+  server: [NestJS, Bun, Prisma, PostgreSQL]
+  desktop: [Tauri, Rust]
+  mobile: [Expo, React Native]
+  games: [Godot]
+  infra: [Docker, GitHub Actions]
+  cms: [WordPress, PHP]
 
 # Kanagawa (dark) and Kanagawa Lotus (light): https://github.com/rebelot/kanagawa.nvim
+# Light text colors are darkened just enough for WCAG AA on the Lotus background (checked in tests).
 theme:
   dark:
-    bg: "#1F1F28"
-    bar: "#16161D"
-    border: "#2A2A37"
-    fg: "#DCD7BA"
-    muted: "#727169"
-    key: "#7E9CD8"
-    accent: "#FFA066"
-    prompt: "#98BB6C"
-    logo: ["#7E9CD8", "#957FB8"]
-    swatches: ["#E46876", "#FFA066", "#E6C384", "#98BB6C", "#7AA89F", "#7E9CD8", "#957FB8", "#D27E99"]
+    bg: '#1F1F28'
+    bar: '#16161D'
+    border: '#2A2A37'
+    fg: '#DCD7BA'
+    muted: '#727169'
+    key: '#7E9CD8'
+    accent: '#FFA066'
+    prompt: '#98BB6C'
+    logo: ['#7E9CD8', '#957FB8']
+    swatches: ['#E46876', '#FFA066', '#E6C384', '#98BB6C', '#7AA89F', '#7E9CD8', '#957FB8', '#D27E99']
   light:
-    bg: "#F2ECBC"
-    bar: "#E7DBA0"
-    border: "#D5CEA3"
-    fg: "#545464"
-    muted: "#8A8980"
-    key: "#4D699B"
-    accent: "#CC6D00"
-    prompt: "#6F894E"
-    logo: ["#4D699B", "#624C83"]
-    swatches: ["#C84053", "#CC6D00", "#77713F", "#6F894E", "#597B75", "#4D699B", "#624C83", "#B35B79"]
+    bg: '#F2ECBC'
+    bar: '#E7DBA0'
+    border: '#D5CEA3'
+    fg: '#545464'
+    muted: '#88877D'
+    key: '#4D699B'
+    accent: '#9E5400'
+    prompt: '#5A6F3F'
+    logo: ['#4D699B', '#624C83']
+    swatches: ['#BD3649', '#9E5400', '#706B3B', '#5A6F3F', '#506F6A', '#4D699B', '#624C83', '#A44C6A']

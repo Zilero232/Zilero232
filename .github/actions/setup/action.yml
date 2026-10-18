@@ -1,0 +1,23 @@
+name: Setup toolchain
+description: Bun from mise.toml, cached packages and the generated GraphQL types.
+
+runs:
+  using: composite
+
+  steps:
+    - uses: jdx/mise-action@2d8d4cafcbd33be2ea37d2b6f5ad595363d1f1ca # v5.1.1
+      with:
+        install: true
+        cache: true
+
+    - name: Cache bun packages
+      uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6
+      with:
+        path: ~/.bun/install/cache
+        key: bun-${{ runner.os }}-${{ hashFiles('bun.lock') }}
+        restore-keys: bun-${{ runner.os }}-
+
+    # postinstall runs graphql-codegen, so the query types exist after this step.
+    - name: Install dependencies
+      shell: bash
+      run: bun install --frozen-lockfile

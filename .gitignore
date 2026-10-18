@@ -1,2 +1,42 @@
+# --- Dependencies ---
 node_modules/
+
+# --- Generated: GraphQL types (`bun run codegen`, runs on install) ---
+src/github/generated/
+
+# --- GitHub data fetched by `bun run fetch` (CI fetches its own) ---
 data/
+
+# --- Test artifacts ---
+coverage/
+
+# --- Secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Logs and backups ---
+*.log
+*.bak
+*.orig
+
+# --- AI agents (keep shared rules) ---
+.agents/
+.claude/*
+!.claude/rules/
+!.claude/agents/
+
+# --- Editors ---
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- mise local overrides ---
+mise.local.toml
