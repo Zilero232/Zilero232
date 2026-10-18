@@ -51,27 +51,6 @@ header:
     - '`++:.                           `-/+/'
     - '.`                                 `/'
 
-# Two groups per table row. Stars are filled in from GitHub data.
-projects:
-  - title: Products
-    items:
-      - { repo: GnomeVPN, note: "VPN on Hysteria2 for web, desktop and Android" }
-      - { repo: Chatovo, note: "Desktop voice and video rooms on Tauri + LiveKit" }
-      - { repo: DurakMaster, note: "Online Durak for Android, iOS and web from one Expo codebase" }
-  - title: Tooling
-    items:
-      - { repo: commit-jazzer, note: "Interactive CLI for structured commit messages" }
-      - { repo: gulp-plugins-hub, note: "Monorepo of Gulp plugins" }
-      - { repo: dev-config-hub, note: "Shared ESLint and Prettier configs" }
-      - { repo: pure-flow-ai, note: "Text moderation and sentiment analysis" }
-  - title: Linux
-    items:
-      - { repo: arch-install-kit, note: "Arch + Hyprland in one command, Kanagawa dotfiles" }
-  - title: WordPress
-    items:
-      - { repo: wp-swift-pwa, note: "Turns a WordPress site into an installable PWA" }
-      - { repo: wp-storybook-gutenberg, note: "Storybook for Gutenberg blocks" }
-
 now:
   - { label: building, text: "GnomeVPN and Chatovo" }
   - { label: learning, text: "Rust for the Tauri side, Godot 4" }

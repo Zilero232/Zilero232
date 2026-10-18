@@ -15,26 +15,6 @@
 
 {{ intro }}
 
-### Projects
-
-<table>
-{% for pair in projects | batch(2) %}
-  <tr>
-{% for group in pair %}
-    <td valign="top" width="50%">
-
-**{{ group.title }}**
-
-{% for item in group.items %}
-- **[{{ item.repo }}](https://github.com/{{ username }}/{{ item.repo }})**{% if github and github.stars[item.repo] >= 10 %} ★ {{ github.stars[item.repo] }}{% endif %}<br /><sub>{{ item.note }}</sub>
-{% endfor %}
-
-</td>
-{% endfor %}
-  </tr>
-{% endfor %}
-</table>
-
 ### Now
 
 <table>
@@ -45,17 +25,5 @@
   </tr>
 {% endfor %}
 </table>
-
-{% if github %}
-### GitHub
-
-<samp>Since {{ github.since }} · {{ github.repos }} public repos · ★ {{ github.totalStars }} · {{ github.pullRequests }} pull requests · {{ github.contributions }} contributions in the last year</samp>
-
-{% endif %}
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/snake-light.svg" />
-  <img src="./assets/snake-dark.svg" width="100%" alt="Snake eating my contribution graph" />
-</picture>
 
 <p align="center"><sub>Generated from <a href="./profile.yml">profile.yml</a> by a GitHub Action, refreshed daily.</sub></p>

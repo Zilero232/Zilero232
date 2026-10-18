@@ -8,9 +8,9 @@
 {% set logoBottom = top + (header.logo | length - 1) * line %}
 {% set height = logoBottom + 66 %}
 {% set rows = header.rows.concat([
-  ["Langs", github.languagesLine],
-  ["Uptime", github.years + " years on GitHub"],
-  ["Stars", github.totalStars + " across " + github.repos + " public repos"]
+  ["Langs", github.languages],
+  ["Uptime", "on GitHub since " + github.since],
+  ["Stars", github.stars + " across " + github.repos + " public repos"]
 ]) if github else header.rows %}
 <svg xmlns="http://www.w3.org/2000/svg" width="{{ width }}" height="{{ height }}" viewBox="0 0 {{ width }} {{ height }}" role="img" aria-label="{{ header.user }}@{{ header.host }}: {% for row in rows %}{{ row[0] }} {{ row[1] }}{% if not loop.last %}, {% endif %}{% endfor %}">
   <style>

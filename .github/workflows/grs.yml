@@ -21,18 +21,10 @@ jobs:
       - name: Fetch GitHub data
         run: bun run fetch
         env:
-          # A PAT also counts private contributions; the default token sees public data only
           GH_TOKEN: ${{ secrets.GH_STATS_TOKEN || github.token }}
 
       - name: Render README and header
         run: bun run build
-
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            assets/snake-light.svg
-            assets/snake-dark.svg?palette=github-dark
 
       - name: Commit
         run: |

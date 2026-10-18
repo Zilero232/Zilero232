@@ -26,17 +26,11 @@ function summarize(user: User) {
     .slice(0, TOP_LANGUAGES)
     .map(([name, size]) => `${name} ${Math.round((size / totalBytes) * 100)}%`);
 
-  const since = new Date(user.createdAt).getFullYear();
-
   return {
-    since,
-    years: new Date().getFullYear() - since,
+    since: new Date(user.createdAt).getFullYear(),
     repos: user.repositories.totalCount,
-    stars: Object.fromEntries(repos.map((repo) => [repo.name, repo.stargazerCount])),
-    totalStars: repos.reduce((sum, repo) => sum + repo.stargazerCount, 0),
-    pullRequests: user.pullRequests.totalCount,
-    contributions: user.contributionsCollection.contributionCalendar.totalContributions,
-    languagesLine: languages.join(" · "),
+    stars: repos.reduce((sum, repo) => sum + repo.stargazerCount, 0),
+    languages: languages.join(" · "),
   };
 }
 
