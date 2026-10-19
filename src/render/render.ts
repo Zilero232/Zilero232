@@ -1,6 +1,7 @@
 import nunjucks from 'nunjucks';
 
 import { PATHS } from '../constants';
+import { hex, shieldsLabel } from './render.filters';
 
 type RenderInput = {
   template: string;
@@ -12,7 +13,9 @@ const createEnvironment = (autoescape: boolean) =>
     autoescape,
     trimBlocks: true,
     lstripBlocks: true
-  });
+  })
+    .addFilter('hex', hex)
+    .addFilter('shieldsLabel', shieldsLabel);
 
 const svgEnvironment = createEnvironment(true);
 const markdownEnvironment = createEnvironment(false);

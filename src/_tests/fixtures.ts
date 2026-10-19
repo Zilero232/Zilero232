@@ -19,9 +19,10 @@ const PALETTE: Palette = {
 export const PROFILE: Profile = {
   username: 'octocat',
   name: 'Octo Cat',
+  tagline: 'Writes TypeScript · web and desktop',
   links: [
-    { label: 'blog', url: 'https://example.com' },
-    { label: 'email', url: 'mailto:octo@example.com' }
+    { label: 'Blog', url: 'https://example.com' },
+    { label: 'Email Me', url: 'mailto:octo@example.com', logo: 'gmail', color: '#EA4335' }
   ],
   intro: 'Writes TypeScript.',
   header: {
@@ -34,9 +35,8 @@ export const PROFILE: Profile = {
     logo: ['  /\\', ' /  \\', '/____\\']
   },
   stack: {
-    web: ['React', 'Vue'],
-    server: ['NestJS'],
-    games: ['Godot']
+    Frontend: ['react', 'vue'],
+    Backend: ['nodejs']
   },
   theme: { dark: PALETTE, light: { ...PALETTE, bg: '#F2ECBC', fg: '#545464' } }
 };

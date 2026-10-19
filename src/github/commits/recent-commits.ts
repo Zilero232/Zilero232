@@ -3,6 +3,7 @@ import { map, pipe, sortBy, take } from 'remeda';
 import type { CommitLine, IsOwnWorkInput, RecentCommitsInput } from './commits.types';
 
 import { timeAgo } from '../../lib/time-ago';
+import { truncate } from '../../lib/truncate';
 import { COMMITS } from './commits.constants';
 import { parseHeadline } from './parse-headline';
 
@@ -33,7 +34,7 @@ export const recentCommits = ({ user, now = Date.now() }: RecentCommitsInput): C
     sortBy([({ commit }) => commit.committedDate, 'desc']),
     take(COMMITS.total),
     map(({ repo, commit }) => ({
-      repo,
+      repo: truncate({ text: repo, cells: COMMITS.repoWidth }),
       hash: commit.abbreviatedOid,
       age: timeAgo({ date: commit.committedDate, now }),
       ...parseHeadline(commit.messageHeadline)

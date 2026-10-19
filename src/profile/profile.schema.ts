@@ -18,7 +18,12 @@ export const paletteSchema = z.object({
 export const profileSchema = z.object({
   username: z.string().min(1),
   name: z.string().min(1),
-  links: z.array(z.object({ label: z.string().min(1), url: z.url() })).min(1),
+  tagline: z.string().min(1),
+  links: z
+    .array(
+      z.object({ label: z.string().min(1), url: z.url(), logo: z.string().optional(), color: hexColor.optional() })
+    )
+    .min(1),
   intro: z.string().min(1),
   header: z.object({
     user: z.string().min(1),

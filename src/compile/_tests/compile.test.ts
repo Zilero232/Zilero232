@@ -124,48 +124,68 @@ describe('activity card', () => {
   });
 });
 
-describe('stack card', () => {
-  it('lists each area with its tools', () => {
-    const document = svg('assets/stack-dark.svg');
+const readme = (input: CompileInput = INPUT) => {
+  const markdown = content(compile(input), PATHS.readme);
 
-    expect(texts(document, 'name')).toEqual(Object.keys(PROFILE.stack));
-    expect(texts(document, 'tools')).toEqual(Object.values(PROFILE.stack).map((tools) => tools.join(' · ')));
-  });
-
-  it('closes the tree on the last area only', () => {
-    const branches = texts(svg('assets/stack-dark.svg'), 'branch');
-
-    expect(branches.at(-1)).toBe('`-- ');
-    expect(branches.slice(0, -1).every((branch) => branch === '|-- ')).toBe(true);
-  });
-
-  it('counts areas and tools like tree does', () => {
-    const tools = Object.values(PROFILE.stack).flat().length;
-
-    expect(texts(svg('assets/stack-dark.svg'), 'summary')[0]).toBe(
-      `${Object.keys(PROFILE.stack).length} directories, ${tools} files`
-    );
-  });
-});
+  return { markdown, document: new JSDOM(markdown).window.document };
+};
 
 describe('README', () => {
+  it('opens with the name and tagline above the cards', () => {
+    const { markdown } = readme();
+    const firstCard = markdown.indexOf('header-dark.svg');
+
+    expect(markdown.indexOf(`# ${PROFILE.name}`)).toBeLessThan(firstCard);
+    expect(markdown.indexOf(PROFILE.tagline)).toBeLessThan(firstCard);
+  });
+
   it('switches every card between themes with a picture element', () => {
-    const readme = content(compile(INPUT), PATHS.readme);
+    const { markdown } = readme();
 
     CARDS.forEach((card) => {
-      expect(readme).toContain(`./assets/${card}-dark.svg`);
-      expect(readme).toContain(`./assets/${card}-light.svg`);
+      expect(markdown).toContain(`./assets/${card}-dark.svg`);
+      expect(markdown).toContain(`./assets/${card}-light.svg`);
     });
   });
 
-  it('links every profile link', () => {
-    const readme = content(compile(INPUT), PATHS.readme);
+  it('shows a badge per link on the dark background with the logo in the link color', () => {
+    const badges = [...readme().document.querySelectorAll('a > img[src^="https://img.shields.io/badge/"]')];
 
-    PROFILE.links.forEach(({ url }) => expect(readme).toContain(`href="${url}"`));
+    expect(badges).toHaveLength(PROFILE.links.length);
+
+    PROFILE.links.forEach((link, index) => {
+      const badge = badges[index];
+      const src = badge?.getAttribute('src') ?? '';
+
+      expect(badge?.parentElement?.getAttribute('href')).toBe(link.url);
+      expect(src).toContain(`-${PROFILE.theme.dark.bg.slice(1)}?`);
+      expect(src.includes('logo=')).toBe(Boolean(link.logo));
+      expect(src.includes(`logoColor=${link.color?.slice(1)}`)).toBe(Boolean(link.color));
+    });
+  });
+
+  it('lists the stack as a row per group with icons for both themes', () => {
+    const rows = [...(readme().document.querySelector('table')?.querySelectorAll('tr') ?? [])];
+
+    expect(rows).toHaveLength(Object.keys(PROFILE.stack).length);
+
+    Object.entries(PROFILE.stack).forEach(([label, icons], index) => {
+      const row = rows[index];
+      const sources = [...(row?.querySelectorAll('source') ?? [])].map((source) => source.getAttribute('srcset'));
+
+      expect(row?.querySelector('b')?.textContent).toBe(label);
+
+      expect(sources).toEqual([
+        `https://skillicons.dev/icons?theme=dark&i=${icons.join('%2C')}`,
+        `https://skillicons.dev/icons?theme=light&i=${icons.join('%2C')}`
+      ]);
+
+      expect(sources.every((source) => !source?.includes(','))).toBe(true);
+    });
   });
 
   it('drops the activity card without GitHub data', () => {
-    expect(content(compile({ ...INPUT, data: null }), PATHS.readme)).not.toContain('activity-dark.svg');
+    expect(readme({ ...INPUT, data: null }).markdown).not.toContain('activity-dark.svg');
   });
 });
 

@@ -1,6 +1,6 @@
 import type { CompileInput, Output } from './compile.types';
 
-import { assetPath, CARDS, PANE, PATHS } from '../constants';
+import { assetPath, CARD, CARDS, PATHS } from '../constants';
 import { recentCommits, stats } from '../github';
 import { renderMarkdown, renderSvg } from '../render';
 import { validateSvg } from './validate-svg';
@@ -18,8 +18,7 @@ export const compile = ({ profile, data, now, fonts }: CompileInput): Output[] =
     ...profile,
     github: githubContext({ data, now }),
     fonts,
-    pane: PANE,
-    stackTools: Object.values(profile.stack).flat().length
+    card: CARD
   };
 
   const cards = CARDS.flatMap((card) =>

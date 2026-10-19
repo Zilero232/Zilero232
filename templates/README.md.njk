@@ -1,28 +1,46 @@
-<!-- Generated from profile.yml and templates/ by generate.ts. Do not edit by hand. -->
+{#- Theme-aware image: GitHub picks the source that matches the viewer's color scheme -#}
+{% macro themed(dark, light, alt, attrs = 'width="100%"') %}
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
-  <img src="./assets/header-dark.svg" width="100%" alt="fastfetch on {{ header.user }}@{{ header.host }}: {% for row in header.rows %}{{ row[0] }} {{ row[1] }}{% if not loop.last %}, {% endif %}{% endfor %}" />
+  <source media="(prefers-color-scheme: dark)" srcset="{{ dark }}" />
+  <source media="(prefers-color-scheme: light)" srcset="{{ light }}" />
+  <img src="{{ dark }}" {{ attrs | safe }} alt="{{ alt }}" />
 </picture>
+{%- endmacro %}
+{% set badgeColor = theme.dark.bg | hex %}
+<!-- Generated from profile.yml and templates/ by src/build.ts. Do not edit by hand. -->
+<div align="center">
 
-<p align="center"><samp>
+# {{ name }}
+
+**{{ tagline }}**
+
 {% for link in links %}
-  <a href="{{ link.url }}">{{ link.label }}</a>{{ " ·" if not loop.last }}
+<a href="{{ link.url }}"><img src="https://img.shields.io/badge/{{ link.label | shieldsLabel }}-{{ badgeColor }}?style=for-the-badge{% if link.logo %}&logo={{ link.logo }}&logoColor={{ link.color | hex }}{% endif %}" alt="{{ link.label }}" /></a>
 {% endfor %}
-</samp></p>
-
-### {{ name }}
 
 {{ intro }}
 
-<p align="center">
-{% for card in (["activity", "stack"] if github else ["stack"]) %}
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/{{ card }}-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/{{ card }}-light.svg" />
-    <img src="./assets/{{ card }}-dark.svg" width="49%" alt="{{ "Recent commits" if card == "activity" else "Tech stack" }}" />
-  </picture>
+</div>
+
+{{ themed("./assets/header-dark.svg", "./assets/header-light.svg", "fastfetch on " + header.user + "@" + header.host) }}
+
+### Tech stack
+
+{#- srcset splits candidates on commas, so the icon ids are joined with an encoded one -#}
+<table>
+{% for label, icons in stack %}
+{% set ids = icons | join("%2C") %}
+  <tr>
+    <td><b>{{ label }}</b></td>
+    <td>{{ themed("https://skillicons.dev/icons?theme=dark&i=" + ids, "https://skillicons.dev/icons?theme=light&i=" + ids, icons | join(", "), 'height="40"') | indent(6) }}</td>
+  </tr>
 {% endfor %}
-</p>
+</table>
+{% if github %}
+
+### Recent commits
+
+{{ themed("./assets/activity-dark.svg", "./assets/activity-light.svg", "Recent commits") }}
+{% endif %}
 
 <p align="center"><sub>Generated from <a href="./profile.yml">profile.yml</a> by a GitHub Action, refreshed daily.</sub></p>
