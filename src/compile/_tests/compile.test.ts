@@ -149,7 +149,11 @@ describe('README', () => {
   });
 
   it('shows a badge per link on the dark background with the logo in the link color', () => {
-    const badges = [...readme().document.querySelectorAll('a > img[src^="https://img.shields.io/badge/"]')];
+    const badges = [
+      ...readme().document.querySelectorAll(
+        'a > img[src^="https://img.shields.io/badge/"]:not([src^="https://img.shields.io/badge/dynamic/"])'
+      )
+    ];
 
     expect(badges).toHaveLength(PROFILE.links.length);
 
@@ -182,6 +186,40 @@ describe('README', () => {
 
       expect(sources.every((source) => !source?.includes(','))).toBe(true);
     });
+  });
+
+  it('types every banner line in the theme key color', () => {
+    const sources = [...readme().document.querySelectorAll('source')]
+      .map((source) => source.getAttribute('srcset') ?? '')
+      .filter((srcset) => srcset.startsWith('https://readme-typing-svg.demolab.com'));
+
+    expect(sources).toHaveLength(2);
+    expect(sources[0]).toContain(`color=${PROFILE.theme.dark.key.slice(1)}`);
+    expect(sources[1]).toContain(`color=${PROFILE.theme.light.key.slice(1)}`);
+
+    sources.forEach((srcset) => {
+      expect(srcset).not.toContain(',');
+      PROFILE.typing.forEach((line) => expect(srcset).toContain(encodeURIComponent(line)));
+    });
+  });
+
+  it('shows the views counter and the LeetCode badge only when they are on', () => {
+    const on = readme().markdown;
+    const off = readme({ ...INPUT, profile: { ...PROFILE, views: false, leetcode: undefined } }).markdown;
+
+    expect(on).toContain(`komarev.com/ghpvc/?username=${PROFILE.username}`);
+    expect(on).toContain(`leetcode-stats.tashif.codes%2F${PROFILE.leetcode}`);
+    expect(off).not.toContain('komarev.com');
+    expect(off).not.toContain('leetcode');
+  });
+
+  it('keeps every heading on its own line', () => {
+    const headings = readme()
+      .markdown.split('\n')
+      .filter((line) => line.startsWith('#'));
+
+    expect(headings.length).toBeGreaterThan(0);
+    headings.forEach((heading) => expect(heading).toMatch(/^#{1,3} [^<]+?( <img [^>]+>)?$/));
   });
 
   it('drops the activity card without GitHub data', () => {

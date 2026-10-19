@@ -24,7 +24,9 @@ export const PROFILE: Profile = {
     { label: 'Blog', url: 'https://example.com' },
     { label: 'Email Me', url: 'mailto:octo@example.com', logo: 'gmail', color: '#EA4335' }
   ],
-  intro: 'Writes TypeScript.',
+  typing: ['Writes TypeScript', 'btw, uses Arch'],
+  views: true,
+  leetcode: 'octocat',
   header: {
     user: 'octo',
     host: 'arch',

@@ -7,26 +7,43 @@
 </picture>
 {%- endmacro %}
 {% set badgeColor = theme.dark.bg | hex %}
+{#- Live badges: komarev has no label color, so the LeetCode one copies its grey label -#}
+{% set statLabel = "555555" %}
+{% set typingLines %}{% for line in typing %}{{ line | urlencode }}{{ ";" if not loop.last }}{% endfor %}{% endset %}
+{% set typingUrl = "https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1500&center=true&vCenter=true&width=720&height=40&lines=" + typingLines + "&color=" %}
 <!-- Generated from profile.yml and templates/ by src/build.ts. Do not edit by hand. -->
 <div align="center">
 
-# {{ name }}
+# {{ name }} <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32" alt="" />
 
 **{{ tagline }}**
+
+{{ themed(typingUrl + (theme.dark.key | hex), typingUrl + (theme.light.key | hex), typing | join(" / "), 'height="40"') }}
 
 {% for link in links %}
 <a href="{{ link.url }}"><img src="https://img.shields.io/badge/{{ link.label | shieldsLabel }}-{{ badgeColor }}?style=for-the-badge{% if link.logo %}&logo={{ link.logo }}&logoColor={{ link.color | hex }}{% endif %}" alt="{{ link.label }}" /></a>
 {% endfor %}
+{% if views or leetcode %}
 
-{{ intro }}
+{% if views %}
+<img src="https://komarev.com/ghpvc/?username={{ username }}&label=Profile+views&color={{ badgeColor }}&style=for-the-badge" alt="Profile views" />
+{% endif %}
+{% if leetcode %}
+<a href="https://leetcode.com/{{ leetcode }}/"><img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=LeetCode&labelColor={{ statLabel }}&color={{ badgeColor }}&logo=leetcode&logoColor=FFA116&query=totalSolved&suffix=%20solved&url=https%3A%2F%2Fleetcode-stats.tashif.codes%2F{{ leetcode }}" alt="LeetCode problems solved" /></a>
+{% endif %}
+{% endif %}
 
 </div>
 
+<br />
+
 {{ themed("./assets/header-dark.svg", "./assets/header-light.svg", "fastfetch on " + header.user + "@" + header.host) }}
 
+<br />
+
+{# srcset splits candidates on commas, so the icon ids are joined with an encoded one #}
 ### Tech stack
 
-{#- srcset splits candidates on commas, so the icon ids are joined with an encoded one -#}
 <table>
 {% for label, icons in stack %}
 {% set ids = icons | join("%2C") %}

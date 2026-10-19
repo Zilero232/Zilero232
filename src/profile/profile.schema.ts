@@ -24,7 +24,9 @@ export const profileSchema = z.object({
       z.object({ label: z.string().min(1), url: z.url(), logo: z.string().optional(), color: hexColor.optional() })
     )
     .min(1),
-  intro: z.string().min(1),
+  typing: z.array(z.string().min(1)).min(1),
+  views: z.boolean().default(false),
+  leetcode: z.string().min(1).optional(),
   header: z.object({
     user: z.string().min(1),
     host: z.string().min(1),

@@ -10,13 +10,18 @@ links:
   - { label: Telegram, url: 'https://t.me/zilero_drag', logo: telegram, color: '#26A5E4' }
   - { label: Email, url: 'mailto:alexandr.artemev.me@gmail.com', logo: gmail, color: '#EA4335' }
   - { label: Habr Career, url: 'https://career.habr.com/zilero', logo: habr, color: '#6A9EC5' }
-  - { label: LeetCode, url: 'https://leetcode.com/Zilero232/', logo: leetcode, color: '#FFA116' }
   - { label: Weblancer, url: 'https://www.weblancer.net/users/nikapr321/' }
 
-intro: >-
-  Full-stack developer, mostly TypeScript. These days that means Next.js, NestJS on Bun, PostgreSQL,
-  Tauri for desktop and Expo for phones. I started with WordPress and PHP. On the side: Godot,
-  and an Arch config I keep rebuilding.
+# Typing banner under the name, one line at a time
+typing:
+  - Full-stack TypeScript, from the database to the app store
+  - Strict mode on, any banned
+  - Rewriting my Hyprland config. Again.
+  - btw, I use Arch
+
+# Live badges next to the contacts: profile views and solved LeetCode problems
+views: true
+leetcode: Zilero232
 
 # fastfetch card at the top. Langs, Uptime and Stars rows are added from GitHub data.
 header:
